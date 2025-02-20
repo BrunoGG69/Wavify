@@ -36,7 +36,8 @@ const Music = () => {
 
     const modalReference = useRef(null); // Reference for the modal
 
-    const closeModalWindow = () => {        const modal = document.getElementById('my_modal_1');
+    const closeModalWindow = () => {
+        const modal = document.getElementById('my_modal_1');
 
         if (modal) {
             modal.close();
@@ -295,6 +296,8 @@ const Music = () => {
                                     </button>
                                 </div>
 
+
+
                                 <AnimatePresence>
                                     <dialog
                                         id="my_modal_1"
@@ -346,6 +349,7 @@ const Music = () => {
                                                     <p className="text-center text-gray-400">No tracks found.</p>
                                                 )}
                                             </ul>
+
 
                                         </div>
                                     </dialog>
