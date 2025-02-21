@@ -1,10 +1,10 @@
-import NewHero from "../../src/sections/NewHero.jsx";
+import Hero from "../../src/sections/Hero.jsx";
 
 function Home() {
     return (
         <main className="relative bg-black font-jetbrains overflow-hidden">
             <div className="padding">
-                <NewHero/>
+                <Hero/>
             </div>
         </main>
     );

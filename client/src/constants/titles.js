@@ -1,5 +1,9 @@
+import askyfullofstarsAudio from '../assets/music/audio/askyfullofstars.webm';
+import askyfullofstars from '../assets/music/image/askyfullofstars.jpeg';
 import alibilaroseAudio from '../assets/music/audio/alibilarose.webm';
 import alibilarose from '../assets/music/image/alibilarose.jpeg';
+import amorfunkAudio from '../assets/music/audio/amorfunk.webm';
+import amorfunk from '../assets/music/image/amorfunk.jpeg';
 import auraAudio from '../assets/music/audio/aura.webm';
 import aura from '../assets/music/image/aura.jpeg';
 import aura2Audio from '../assets/music/audio/aura2.webm';
@@ -22,6 +26,8 @@ import empireAudio from '../assets/music/audio/empire.webm';
 import empire from '../assets/music/image/empire.jpeg';
 import fireAudio from '../assets/music/audio/fire.webm';
 import fire from '../assets/music/image/fire.jpeg';
+import funkcoracaoAudio from '../assets/music/audio/funkcoracao.webm';
+import funkcoracao from '../assets/music/image/funkcoracao.jpeg';
 import funkestrelasAudio from '../assets/music/audio/funkestrelas.webm';
 import funkestrelas from '../assets/music/image/funkestrelas.jpeg';
 import funkfuturaAudio from '../assets/music/audio/funkfutura.webm';
@@ -38,6 +44,8 @@ import himmatbgmithemesongAudio from '../assets/music/audio/himmatbgmithemesong.
 import himmatbgmithemesong from '../assets/music/image/himmatbgmithemesong.jpeg';
 import indianphonkekiAudio from '../assets/music/audio/indianphonkeki.webm';
 import indianphonkeki from '../assets/music/image/indianphonkeki.jpeg';
+import judasfunkAudio from '../assets/music/audio/judasfunk.webm';
+import judasfunk from '../assets/music/image/judasfunk.jpeg';
 import lifeforceAudio from '../assets/music/audio/lifeforce.webm';
 import lifeforce from '../assets/music/image/lifeforce.jpeg';
 import matushkaultrafunkAudio from '../assets/music/audio/matushkaultrafunk.webm';
@@ -64,6 +72,8 @@ import scopinAudio from '../assets/music/audio/scopin.webm';
 import scopin from '../assets/music/image/scopin.jpeg';
 import sigmaboyAudio from '../assets/music/audio/sigmaboy.webm';
 import sigmaboy from '../assets/music/image/sigmaboy.jpeg';
+import slavafunkAudio from '../assets/music/audio/slavafunk.webm';
+import slavafunk from '../assets/music/image/slavafunk.jpeg';
 import slayAudio from '../assets/music/audio/slay.webm';
 import slay from '../assets/music/image/slay.jpeg';
 import slayjerseyremixAudio from '../assets/music/audio/slayjerseyremix.webm';
@@ -80,9 +90,21 @@ import thatssotrueAudio from '../assets/music/audio/thatssotrue.webm';
 import thatssotrue from '../assets/music/image/thatssotrue.jpeg';
 import victoryanthemAudio from '../assets/music/audio/victoryanthem.webm';
 import victoryanthem from '../assets/music/image/victoryanthem.jpeg';
+import weprayjasleenroyalversionAudio from '../assets/music/audio/weprayjasleenroyalversion.webm';
+import weprayjasleenroyalversion from '../assets/music/image/weprayjasleenroyalversion.jpeg';
 export const titles = [
   {
     id: 1,
+    audio: askyfullofstarsAudio,
+    image: askyfullofstars,
+    title: 'A Sky Full Of Stars',
+    artist: 'Coldplay',
+    color: 'text-[#83969f]',
+    bgColor: 'bg-[#83969f]',
+    colorCode: '#83969f',
+  },
+  {
+    id: 2,
     audio: alibilaroseAudio,
     image: alibilarose,
     title: 'Alibi La Rose',
@@ -92,7 +114,17 @@ export const titles = [
     colorCode: '#f961b5',
   },
   {
-    id: 2,
+    id: 3,
+    audio: amorfunkAudio,
+    image: amorfunk,
+    title: 'Amor Funk',
+    artist: 'Irokz',
+    color: 'text-[#f255ef]',
+    bgColor: 'bg-[#f255ef]',
+    colorCode: '#f255ef',
+  },
+  {
+    id: 4,
     audio: auraAudio,
     image: aura,
     title: 'Aura',
@@ -102,7 +134,7 @@ export const titles = [
     colorCode: '#9faeff',
   },
   {
-    id: 3,
+    id: 5,
     audio: aura2Audio,
     image: aura2,
     title: 'Aura 2',
@@ -112,7 +144,7 @@ export const titles = [
     colorCode: '#81c3fe',
   },
   {
-    id: 4,
+    id: 6,
     audio: babyjohnbeastmodeAudio,
     image: babyjohnbeastmode,
     title: 'Baby John - Beast Mode',
@@ -122,7 +154,7 @@ export const titles = [
     colorCode: '#ffb324',
   },
   {
-    id: 5,
+    id: 7,
     audio: blahAudio,
     image: blah,
     title: 'Blah',
@@ -132,7 +164,7 @@ export const titles = [
     colorCode: '#ff3b4f',
   },
   {
-    id: 6,
+    id: 8,
     audio: canyoufeelmyheartAudio,
     image: canyoufeelmyheart,
     title: 'Can You Feel My Heart',
@@ -142,7 +174,7 @@ export const titles = [
     colorCode: '#a88350',
   },
   {
-    id: 7,
+    id: 9,
     audio: chanakyaAudio,
     image: chanakya,
     title: 'Chanakya',
@@ -152,7 +184,7 @@ export const titles = [
     colorCode: '#ffdf2c',
   },
   {
-    id: 8,
+    id: 10,
     audio: childrenofthesunAudio,
     image: childrenofthesun,
     title: 'Children Of The Sun',
@@ -162,7 +194,7 @@ export const titles = [
     colorCode: '#49666d',
   },
   {
-    id: 9,
+    id: 11,
     audio: dernieredancefunkAudio,
     image: dernieredancefunk,
     title: 'Derniere Dance Funk',
@@ -172,7 +204,7 @@ export const titles = [
     colorCode: '#ffb37a',
   },
   {
-    id: 10,
+    id: 12,
     audio: etAudio,
     image: et,
     title: 'ET',
@@ -182,7 +214,7 @@ export const titles = [
     colorCode: '#df8fed',
   },
   {
-    id: 11,
+    id: 13,
     audio: empireAudio,
     image: empire,
     title: 'Empire',
@@ -192,7 +224,7 @@ export const titles = [
     colorCode: '#d98531',
   },
   {
-    id: 12,
+    id: 14,
     audio: fireAudio,
     image: fire,
     title: 'Fire',
@@ -202,7 +234,17 @@ export const titles = [
     colorCode: '#fbc594',
   },
   {
-    id: 13,
+    id: 15,
+    audio: funkcoracaoAudio,
+    image: funkcoracao,
+    title: 'Funk Coracao',
+    artist: 'NOIXES, Yung Zime, elysian',
+    color: 'text-[#2268b7]',
+    bgColor: 'bg-[#2268b7]',
+    colorCode: '#2268b7',
+  },
+  {
+    id: 16,
     audio: funkestrelasAudio,
     image: funkestrelas,
     title: 'Funk Estrelas',
@@ -212,7 +254,7 @@ export const titles = [
     colorCode: '#3dc0e2',
   },
   {
-    id: 14,
+    id: 17,
     audio: funkfuturaAudio,
     image: funkfutura,
     title: 'Funk Futura',
@@ -222,7 +264,7 @@ export const titles = [
     colorCode: '#a2a2e6',
   },
   {
-    id: 15,
+    id: 18,
     audio: funkluminarAudio,
     image: funkluminar,
     title: 'Funk Luminar',
@@ -232,7 +274,7 @@ export const titles = [
     colorCode: '#60d5ff',
   },
   {
-    id: 16,
+    id: 19,
     audio: funkuniversoAudio,
     image: funkuniverso,
     title: 'Funk Universo',
@@ -242,7 +284,7 @@ export const titles = [
     colorCode: '#50C878',
   },
   {
-    id: 17,
+    id: 20,
     audio: gloryAudio,
     image: glory,
     title: 'Glory',
@@ -252,7 +294,7 @@ export const titles = [
     colorCode: '#e41b1d',
   },
   {
-    id: 18,
+    id: 21,
     audio: halloffameAudio,
     image: halloffame,
     title: 'Hall of Fame',
@@ -262,7 +304,7 @@ export const titles = [
     colorCode: '#fb5800',
   },
   {
-    id: 19,
+    id: 22,
     audio: himmatbgmithemesongAudio,
     image: himmatbgmithemesong,
     title: 'Himmat BGMI Theme Song',
@@ -272,7 +314,7 @@ export const titles = [
     colorCode: '#fbd5a4',
   },
   {
-    id: 20,
+    id: 23,
     audio: indianphonkekiAudio,
     image: indianphonkeki,
     title: 'Indian Phonk Eki',
@@ -282,7 +324,17 @@ export const titles = [
     colorCode: '#ff8494',
   },
   {
-    id: 21,
+    id: 24,
+    audio: judasfunkAudio,
+    image: judasfunk,
+    title: 'Judas Funk',
+    artist: 'RVNGE, xlout, FUNK DEMON, EVO',
+    color: 'text-[#b653fe]',
+    bgColor: 'bg-[#b653fe]',
+    colorCode: '#b653fe',
+  },
+  {
+    id: 25,
     audio: lifeforceAudio,
     image: lifeforce,
     title: 'Life Force',
@@ -292,7 +344,7 @@ export const titles = [
     colorCode: '#bababa',
   },
   {
-    id: 22,
+    id: 26,
     audio: matushkaultrafunkAudio,
     image: matushkaultrafunk,
     title: 'Matushka Ultrafunk',
@@ -302,7 +354,7 @@ export const titles = [
     colorCode: '#d437cb',
   },
   {
-    id: 23,
+    id: 27,
     audio: metamorphosisAudio,
     image: metamorphosis,
     title: 'Metamorphosis',
@@ -312,7 +364,7 @@ export const titles = [
     colorCode: '#a8527a',
   },
   {
-    id: 24,
+    id: 28,
     audio: metamorphosis2Audio,
     image: metamorphosis2,
     title: 'Metamorphosis 2',
@@ -322,7 +374,7 @@ export const titles = [
     colorCode: '#fdc97a',
   },
   {
-    id: 25,
+    id: 29,
     audio: metamorphosis3Audio,
     image: metamorphosis3,
     title: 'Metamorphosis 3',
@@ -332,7 +384,7 @@ export const titles = [
     colorCode: '#c74934',
   },
   {
-    id: 26,
+    id: 30,
     audio: mexicanphonkekiAudio,
     image: mexicanphonkeki,
     title: 'Mexican Phonk Eki',
@@ -342,7 +394,7 @@ export const titles = [
     colorCode: '#eb5013',
   },
   {
-    id: 27,
+    id: 31,
     audio: mortalsfunkremixAudio,
     image: mortalsfunkremix,
     title: 'Mortals Funk Remix',
@@ -352,7 +404,7 @@ export const titles = [
     colorCode: '#1f8de6',
   },
   {
-    id: 28,
+    id: 32,
     audio: murderplotAudio,
     image: murderplot,
     title: 'Murder Plot',
@@ -362,7 +414,7 @@ export const titles = [
     colorCode: '#d0a2fb',
   },
   {
-    id: 29,
+    id: 33,
     audio: murderinmymindAudio,
     image: murderinmymind,
     title: 'Murder in my mind',
@@ -372,7 +424,7 @@ export const titles = [
     colorCode: '#800673',
   },
   {
-    id: 30,
+    id: 34,
     audio: nevertrustAudio,
     image: nevertrust,
     title: 'Never Trust',
@@ -382,7 +434,7 @@ export const titles = [
     colorCode: '#eb5c29',
   },
   {
-    id: 31,
+    id: 35,
     audio: obeliyaAudio,
     image: obeliya,
     title: 'O Beliya',
@@ -392,7 +444,7 @@ export const titles = [
     colorCode: '#d4a47d',
   },
   {
-    id: 32,
+    id: 36,
     audio: scopinAudio,
     image: scopin,
     title: 'Scopin',
@@ -402,7 +454,7 @@ export const titles = [
     colorCode: '#f6a59c',
   },
   {
-    id: 33,
+    id: 37,
     audio: sigmaboyAudio,
     image: sigmaboy,
     title: 'Sigma Boy',
@@ -412,7 +464,17 @@ export const titles = [
     colorCode: '#bebcfd',
   },
   {
-    id: 34,
+    id: 38,
+    audio: slavafunkAudio,
+    image: slavafunk,
+    title: 'Slava Funk',
+    artist: 'MVSTERIOUS, Hxmr, yngastrobeatz, EVO',
+    color: 'text-[#f4a635]',
+    bgColor: 'bg-[#f4a635]',
+    colorCode: '#f4a635',
+  },
+  {
+    id: 39,
     audio: slayAudio,
     image: slay,
     title: 'Slay',
@@ -422,7 +484,7 @@ export const titles = [
     colorCode: '#f06beb',
   },
   {
-    id: 35,
+    id: 40,
     audio: slayjerseyremixAudio,
     image: slayjerseyremix,
     title: 'Slay - Jersey Remix',
@@ -432,7 +494,7 @@ export const titles = [
     colorCode: '#e875fd',
   },
   {
-    id: 36,
+    id: 41,
     audio: sugarcrash2Audio,
     image: sugarcrash2,
     title: 'SugarCrash 2',
@@ -442,7 +504,7 @@ export const titles = [
     colorCode: '#fad3ca',
   },
   {
-    id: 37,
+    id: 42,
     audio: superpowerAudio,
     image: superpower,
     title: 'Superpower',
@@ -452,7 +514,7 @@ export const titles = [
     colorCode: '#f1df64',
   },
   {
-    id: 38,
+    id: 43,
     audio: synthwaveAudio,
     image: synthwave,
     title: 'Synthwave',
@@ -462,7 +524,7 @@ export const titles = [
     colorCode: '#5d85d7',
   },
   {
-    id: 39,
+    id: 44,
     audio: tandavAudio,
     image: tandav,
     title: 'Tandav',
@@ -472,7 +534,7 @@ export const titles = [
     colorCode: '#fab23f',
   },
   {
-    id: 40,
+    id: 45,
     audio: thatssotrueAudio,
     image: thatssotrue,
     title: 'Thats So True',
@@ -482,11 +544,21 @@ export const titles = [
     colorCode: '#7d7b7d',
   },
   {
-    id: 41,
+    id: 46,
     audio: victoryanthemAudio,
     image: victoryanthem,
     title: 'Victory Anthem',
     artist: 'KHUSHI TDT, Lash Curry, Audiocrackerr',
+    color: 'text-[#f0c30b]',
+    bgColor: 'bg-[#f0c30b]',
+    colorCode: '#f0c30b',
+  },
+  {
+    id: 47,
+    audio: weprayjasleenroyalversionAudio,
+    image: weprayjasleenroyalversion,
+    title: 'We Pray - Jasleen Royal Version',
+    artist: 'Coldplay, Little Simz, Burna Boy, Elyanna, TINI, Jasleen Royal',
     color: 'text-[#f0c30b]',
     bgColor: 'bg-[#f0c30b]',
     colorCode: '#f0c30b',
